@@ -1,0 +1,31 @@
+body {
+    display: block;
+    background-color: #5a5a5a;
+}
+
+nav {
+    background-color: #1a1a1a;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    a {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #d5001f;
+    text-shadow: 1px 1px 3px black;
+}
+
+.card {
+    box-shadow: 1px 1px 10px lightgray;
+    cursor: pointer;
+}
